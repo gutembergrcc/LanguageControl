@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.admin.domain.language.LanguageTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-05-08T18:08:51" hostname="DESKTOP-1IMD8U7" time="0.074">
+  <properties/>
+  <testcase name="givenAnInvalidAcronymLess3_whenCallNewLanguageyAndValidate_thenShouldReceiveError()" classname="com.admin.domain.language.LanguageTest" time="0.048"/>
+  <testcase name="givenAnEmptyName_whenCallNewLanguageAndValidate_thenShouldReceiveError()" classname="com.admin.domain.language.LanguageTest" time="0.003"/>
+  <testcase name="givenAInvalidNameMore255Chars_whenCallNewLanguageAndValidate_thenShouldReceiveError()" classname="com.admin.domain.language.LanguageTest" time="0.001"/>
+  <testcase name="givenAnInvalidAcronymMore30_whenCallNewLanguageyAndValidate_thenShouldReceiveError()" classname="com.admin.domain.language.LanguageTest" time="0.001"/>
+  <testcase name="givenAValidParams_whenCallNewLanguage_thenInstantiateALanguage()" classname="com.admin.domain.language.LanguageTest" time="0.002"/>
+  <testcase name="givenAInvalidName_whenCallNewLanguageAndValidate_thenShouldReceiveError()" classname="com.admin.domain.language.LanguageTest" time="0.001"/>
+  <testcase name="givenAnInvalidNullDescription_whenCallNewLanguageyAndValidate_thenShouldReceiveError()" classname="com.admin.domain.language.LanguageTest" time="0.002"/>
+  <testcase name="givenAnInvalidNullName_whenCallNewLanguageAndValidate_thenShouldReceiveError()" classname="com.admin.domain.language.LanguageTest" time="0.001"/>
+  <testcase name="givenAnInvalidEmptyDescription_whenCallNewLanguageyAndValidate_thenShouldReceiveError()" classname="com.admin.domain.language.LanguageTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "910522c9-6bb2-49d6-aa42-fd1050ec3759",
+		"name": "Language",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5461063"
+	},
+	"item": [
+		{
+			"name": "Create Language",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \".Net\",\r\n    \"description\": \"Linguagem OO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/languages/createLanguage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"languages",
+						"createLanguage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Languages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/languages/listLanguages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"languages",
+						"listLanguages"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

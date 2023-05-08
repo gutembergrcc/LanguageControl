@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.admin.application.language.create.CreateLanguageUseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-05-08T18:09:11" hostname="DESKTOP-1IMD8U7" time="1.762">
+  <properties/>
+  <testcase name="givenAInvalidName_whenCallsCreateLanguage_thenShouldReturnDomainException()" classname="com.admin.application.language.create.CreateLanguageUseCaseTest" time="1.696"/>
+  <testcase name="givenAValidCommand_whenCallsCreateLanguage_shouldReturnLanguageId()" classname="com.admin.application.language.create.CreateLanguageUseCaseTest" time="0.057"/>
+  <testcase name="givenAInvalidDescription_whenCallsCreateLanguage_thenShouldReturnDomainException()" classname="com.admin.application.language.create.CreateLanguageUseCaseTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

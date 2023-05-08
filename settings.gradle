@@ -1,0 +1,5 @@
+rootProject.name = 'languages-control'
+include 'domain'
+include 'application'
+include 'infrastructure'
+

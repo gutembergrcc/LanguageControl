@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  languages-mysql-db:
+    container_name: languages-mysql-db
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=languageControl
+    ports:
+      - 3306:3306
+    networks:
+      - language_network
+  languages-app:
+    container_name: languages-app
+    image: gutembergrcc/spring-boot-docker-language-app:latest
+    ports:
+      - 8080:8080
+    depends_on:
+      - languages-mysql-db
+    networks:
+      - language_network
+    environment:
+      - WAIT_HOSTS=languages-mysql-db:3306
+      - WAIT_HOSTS_TIMEOUT=300
+      - WAIT_SLEEP_INTERVAL=30
+      - WAIT_HOST_CONNECT_TIMEOUT=30
+networks:
+  language_network:
+    driver: bridge
+    name: language_network
